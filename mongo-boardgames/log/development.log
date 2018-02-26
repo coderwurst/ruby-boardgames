@@ -1,0 +1,124 @@
+Started GET "/boardgames" for 127.0.0.1 at 2018-02-26 21:29:21 +0100
+Processing by BoardgamesController#index as HTML
+  Rendering boardgames/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | mongo_boardgames_development.find | STARTED | {"find"=>"boardgames", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70311835944540 type=uuid data=0x1255a814e4ef49bb...>}}
+MONGODB | localhost:27017 | mongo_boardgames_development.find | SUCCEEDED | 0.001849s
+  Rendered boardgames/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 911ms (Views: 871.7ms)
+
+
+Started GET "/boardgames/new" for 127.0.0.1 at 2018-02-26 21:29:26 +0100
+Processing by BoardgamesController#new as HTML
+  Rendering boardgames/new.html.erb within layouts/application
+  Rendered boardgames/_form.html.erb (36.1ms)
+  Rendered boardgames/new.html.erb within layouts/application (42.8ms)
+Completed 200 OK in 104ms (Views: 97.0ms)
+
+
+Started POST "/boardgames" for 127.0.0.1 at 2018-02-26 21:29:46 +0100
+Processing by BoardgamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qAQsJcvVwnuZ9QePo0Vifd4MPuj0rm0oEyDczgLHtgVpTl8gAxN+QkFjtf2cQ024B9G++PqDWLexKtqRKiI9/A==", "boardgame"=>{"name"=>"7 Wonders", "rating"=>"7,74", "minplayer"=>"2", "maxplayer"=>"7", "duration"=>"30", "owner"=>"AB"}, "commit"=>"Create Boardgame"}
+MONGODB | localhost:27017 | mongo_boardgames_development.insert | STARTED | {"insert"=>"boardgames", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x70311835944540 type=uuid data=0x1255a814e4ef49bb...>}, "documents"=>[{"_id"=>BSON::ObjectId('5a946e3a5c0a2173dd876679'), "name"=>"7 Wonders", "rating"=>"7,74", "minplayer"=>"2", ...
+MONGODB | localhost:27017 | mongo_boardgames_development.insert | SUCCEEDED | 0.070835s
+Redirected to http://localhost:3000/boardgames/5a946e3a5c0a2173dd876679
+Completed 302 Found in 84ms
+
+
+Started GET "/boardgames/5a946e3a5c0a2173dd876679" for 127.0.0.1 at 2018-02-26 21:29:46 +0100
+Processing by BoardgamesController#show as HTML
+  Parameters: {"id"=>"5a946e3a5c0a2173dd876679"}
+MONGODB | localhost:27017 | mongo_boardgames_development.find | STARTED | {"find"=>"boardgames", "filter"=>{"_id"=>BSON::ObjectId('5a946e3a5c0a2173dd876679')}, "lsid"=>{"id"=><BSON::Binary:0x70311835944540 type=uuid data=0x1255a814e4ef49bb...>}}
+MONGODB | localhost:27017 | mongo_boardgames_development.find | SUCCEEDED | 0.001444s
+  Rendering boardgames/show.html.erb within layouts/application
+  Rendered boardgames/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 44ms (Views: 37.8ms)
+
+
+Started GET "/boardgames" for 127.0.0.1 at 2018-02-26 21:29:48 +0100
+Processing by BoardgamesController#index as HTML
+  Rendering boardgames/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_boardgames_development.find | STARTED | {"find"=>"boardgames", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70311835944540 type=uuid data=0x1255a814e4ef49bb...>}}
+MONGODB | localhost:27017 | mongo_boardgames_development.find | SUCCEEDED | 0.005556s
+  Rendered boardgames/index.html.erb within layouts/application (37.1ms)
+Completed 200 OK in 83ms (Views: 77.3ms)
+
+
+Started GET "/boardgames/new" for 127.0.0.1 at 2018-02-26 21:29:50 +0100
+Processing by BoardgamesController#new as HTML
+  Rendering boardgames/new.html.erb within layouts/application
+  Rendered boardgames/_form.html.erb (16.6ms)
+  Rendered boardgames/new.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 80ms (Views: 74.7ms)
+
+
+Started POST "/boardgames" for 127.0.0.1 at 2018-02-26 21:30:18 +0100
+Processing by BoardgamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GmFWASoVyoa+vObdQx4216kk9ZCSl1pC1pEnS4Xm3hDbKyUE4tN2v2YqVK98GBkScPl1gJy6b910myEUrQNV6Q==", "boardgame"=>{"name"=>"Alhambra", "rating"=>"6,95", "minplayer"=>"2", "maxplayer"=>"6", "duration"=>"40-100", "owner"=>"AB"}, "commit"=>"Create Boardgame"}
+MONGODB | localhost:27017 | mongo_boardgames_development.insert | STARTED | {"insert"=>"boardgames", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x70311835944540 type=uuid data=0x1255a814e4ef49bb...>}, "documents"=>[{"_id"=>BSON::ObjectId('5a946e5a5c0a2173dd87667a'), "name"=>"Alhambra", "rating"=>"6,95", "minplayer"=>"2", "...
+MONGODB | localhost:27017 | mongo_boardgames_development.insert | SUCCEEDED | 0.000899s
+Redirected to http://localhost:3000/boardgames/5a946e5a5c0a2173dd87667a
+Completed 302 Found in 4ms
+
+
+Started GET "/boardgames/5a946e5a5c0a2173dd87667a" for 127.0.0.1 at 2018-02-26 21:30:18 +0100
+Processing by BoardgamesController#show as HTML
+  Parameters: {"id"=>"5a946e5a5c0a2173dd87667a"}
+MONGODB | localhost:27017 | mongo_boardgames_development.find | STARTED | {"find"=>"boardgames", "filter"=>{"_id"=>BSON::ObjectId('5a946e5a5c0a2173dd87667a')}, "lsid"=>{"id"=><BSON::Binary:0x70311835944540 type=uuid data=0x1255a814e4ef49bb...>}}
+MONGODB | localhost:27017 | mongo_boardgames_development.find | SUCCEEDED | 0.000875s
+  Rendering boardgames/show.html.erb within layouts/application
+  Rendered boardgames/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 27.3ms)
+
+
+Started GET "/boardgames" for 127.0.0.1 at 2018-02-26 21:30:21 +0100
+Processing by BoardgamesController#index as HTML
+  Rendering boardgames/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_boardgames_development.find | STARTED | {"find"=>"boardgames", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70311835944540 type=uuid data=0x1255a814e4ef49bb...>}}
+MONGODB | localhost:27017 | mongo_boardgames_development.find | SUCCEEDED | 0.015875999999999998s
+  Rendered boardgames/index.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 51ms (Views: 44.7ms)
+
+
+Started GET "/boardgames/new" for 127.0.0.1 at 2018-02-26 21:30:26 +0100
+Processing by BoardgamesController#new as HTML
+  Rendering boardgames/new.html.erb within layouts/application
+  Rendered boardgames/_form.html.erb (3.4ms)
+  Rendered boardgames/new.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 53ms (Views: 48.7ms)
+
+
+Started POST "/boardgames" for 127.0.0.1 at 2018-02-26 21:30:49 +0100
+Processing by BoardgamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NoVCXO7GqSNRcKWP66212B9GZY20P30iMXG9ZRrGbOr3zzFZJgAVGonmF/3Uq5odxpvlnboSSL2Te7s6MiPnEw==", "boardgame"=>{"name"=>"Terra Mystica", "rating"=>"8,32", "minplayer"=>"2", "maxplayer"=>"5", "duration"=>"30/Player", "owner"=>"AM"}, "commit"=>"Create Boardgame"}
+MONGODB | localhost:27017 | mongo_boardgames_development.insert | STARTED | {"insert"=>"boardgames", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x70311835944540 type=uuid data=0x1255a814e4ef49bb...>}, "documents"=>[{"_id"=>BSON::ObjectId('5a946e795c0a2173dd87667b'), "name"=>"Terra Mystica", "rating"=>"8,32", "minplayer"=>"...
+MONGODB | localhost:27017 | mongo_boardgames_development.insert | SUCCEEDED | 0.0006979999999999999s
+Redirected to http://localhost:3000/boardgames/5a946e795c0a2173dd87667b
+Completed 302 Found in 5ms
+
+
+Started GET "/boardgames/5a946e795c0a2173dd87667b" for 127.0.0.1 at 2018-02-26 21:30:49 +0100
+Processing by BoardgamesController#show as HTML
+  Parameters: {"id"=>"5a946e795c0a2173dd87667b"}
+MONGODB | localhost:27017 | mongo_boardgames_development.find | STARTED | {"find"=>"boardgames", "filter"=>{"_id"=>BSON::ObjectId('5a946e795c0a2173dd87667b')}, "lsid"=>{"id"=><BSON::Binary:0x70311835944540 type=uuid data=0x1255a814e4ef49bb...>}}
+MONGODB | localhost:27017 | mongo_boardgames_development.find | SUCCEEDED | 0.00037499999999999995s
+  Rendering boardgames/show.html.erb within layouts/application
+  Rendered boardgames/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 18.5ms)
+
+
+Started GET "/boardgames" for 127.0.0.1 at 2018-02-26 21:30:51 +0100
+Processing by BoardgamesController#index as HTML
+  Rendering boardgames/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_boardgames_development.find | STARTED | {"find"=>"boardgames", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70311835944540 type=uuid data=0x1255a814e4ef49bb...>}}
+MONGODB | localhost:27017 | mongo_boardgames_development.find | SUCCEEDED | 0.019062s
+  Rendered boardgames/index.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 54ms (Views: 49.8ms)
+
+
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70311835944540 type=uuid data=0x1255a814e4ef49bb...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000526s

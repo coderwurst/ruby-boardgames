@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @boardgame.name %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @boardgame.rating %>
+</p>
+
+<p>
+  <strong>Minplayer:</strong>
+  <%= @boardgame.minplayer %>
+</p>
+
+<p>
+  <strong>Maxplayer:</strong>
+  <%= @boardgame.maxplayer %>
+</p>
+
+<p>
+  <strong>Duration:</strong>
+  <%= @boardgame.duration %>
+</p>
+
+<p>
+  <strong>Owner:</strong>
+  <%= @boardgame.owner %>
+</p>
+
+<%= link_to 'Edit', edit_boardgame_path(@boardgame) %> |
+<%= link_to 'Back', boardgames_path %>
