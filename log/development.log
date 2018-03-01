@@ -122,3 +122,17 @@ Completed 200 OK in 54ms (Views: 49.8ms)
 
 MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70311835944540 type=uuid data=0x1255a814e4ef49bb...>}]}
 MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000526s
+Started GET "/boardgames" for 127.0.0.1 at 2018-03-01 09:51:08 +0100
+Processing by BoardgamesController#index as HTML
+  Rendering boardgames/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | mongo_boardgames_development.find | STARTED | {"find"=>"boardgames", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x70283109739860 type=uuid data=0x9bef772e100a459e...>}}
+MONGODB | localhost:27017 | mongo_boardgames_development.find | SUCCEEDED | 0.002753s
+  Rendered boardgames/index.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 718ms (Views: 676.3ms)
+
+
