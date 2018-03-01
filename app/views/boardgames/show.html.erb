@@ -1,34 +1,37 @@
 <p id="notice"><%= notice %></p>
+<div class="game-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title-text">
+    <%= @boardgame.name %>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <p>
+      <strong>Rating:</strong>
+      <%= @boardgame.rating %>
+    </p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @boardgame.name %>
-</p>
+    <p>
+      <strong>Minplayer:</strong>
+      <%= @boardgame.minplayer %>
+    </p>
 
-<p>
-  <strong>Rating:</strong>
-  <%= @boardgame.rating %>
-</p>
+    <p>
+      <strong>Maxplayer:</strong>
+      <%= @boardgame.maxplayer %>
+    </p>
 
-<p>
-  <strong>Minplayer:</strong>
-  <%= @boardgame.minplayer %>
-</p>
+    <p>
+      <strong>Duration:</strong>
+      <%= @boardgame.duration %>
+    </p>
 
-<p>
-  <strong>Maxplayer:</strong>
-  <%= @boardgame.maxplayer %>
-</p>
+    <p>
+      <strong>Owner:</strong>
+      <%= @boardgame.owner %>
+    </p>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <%= link_to 'Edit', edit_boardgame_path(@boardgame) %> |
+    <%= link_to 'Back', boardgames_path %>
+  </div>
+</div>
 
-<p>
-  <strong>Duration:</strong>
-  <%= @boardgame.duration %>
-</p>
-
-<p>
-  <strong>Owner:</strong>
-  <%= @boardgame.owner %>
-</p>
-
-<%= link_to 'Edit', edit_boardgame_path(@boardgame) %> |
-<%= link_to 'Back', boardgames_path %>

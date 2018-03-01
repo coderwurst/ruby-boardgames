@@ -24,6 +24,29 @@ body {
     min-width: 0;
 }
 
+.game-card-wide.mdl-card {
+    width: 512px;
+}
+
+.game-card-wide > .mdl-card__title {
+color: #0000;
+height: 176px;
+width: auto;
+}
+
+.mdl-card__title-text {
+    align-self: center !important;
+    font-weight: bold !important;
+}
+
+.game-card-wide > .mdl-card__menu {
+color: #fff;
+}
+
+.game-card-wide > .mdl-card__actions, .mdl-card--border {
+    text-align: center;
+}
+
 // classes
 .centered {
     margin-left: 50%;
