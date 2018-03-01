@@ -11,37 +11,37 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name, id: :boardgame_name %>
+  <div class="mdl-textfield mdl-js-textfield">
+    <%= form.label :name, class: 'mdl-textfield__label' %>
+    <%= form.text_field :name, id: :boardgame_name, class: 'mdl-textfield__input' %>
   </div>
 
-  <div class="field">
-    <%= form.label :rating %>
-    <%= form.text_field :rating, id: :boardgame_rating %>
+  <div class="mdl-textfield mdl-js-textfield right-align">
+    <%= form.label :rating, class: 'mdl-textfield__label' %>
+    <%= form.text_field :rating, id: :boardgame_rating, class: 'mdl-textfield__input' %>
   </div>
 
-  <div class="field">
-    <%= form.label :minplayer %>
-    <%= form.text_field :minplayer, id: :boardgame_minplayer %>
+  <div class="mdl-textfield mdl-js-textfield">
+    <%= form.label :minplayer, class: 'mdl-textfield__label' %>
+    <%= form.text_field :minplayer, id: :boardgame_minplayer, class: 'mdl-textfield__input' %>
   </div>
 
-  <div class="field">
-    <%= form.label :maxplayer %>
-    <%= form.text_field :maxplayer, id: :boardgame_maxplayer %>
+  <div class="mdl-textfield mdl-js-textfield right-align">
+    <%= form.label :maxplayer, class: 'mdl-textfield__label' %>
+    <%= form.text_field :maxplayer, id: :boardgame_maxplayer, class: 'mdl-textfield__input' %>
   </div>
 
-  <div class="field">
-    <%= form.label :duration %>
-    <%= form.text_field :duration, id: :boardgame_duration %>
+  <div class="mdl-textfield mdl-js-textfield">
+    <%= form.label :duration, class: 'mdl-textfield__label' %>
+    <%= form.text_field :duration, id: :boardgame_duration, class: 'mdl-textfield__input' %>
   </div>
 
-  <div class="field">
-    <%= form.label :owner %>
-    <%= form.text_field :owner, id: :boardgame_owner %>
+  <div class="mdl-textfield mdl-js-textfield right-align">
+    <%= form.label :owner, class: 'mdl-textfield__label' %>
+    <%= form.text_field :owner, id: :boardgame_owner, class: 'mdl-textfield__input' %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="action">
+    <%= form.submit 'ADD', :class => 'mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect right-align' %>
   </div>
 <% end %>
