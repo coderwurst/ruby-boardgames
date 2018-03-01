@@ -1,3 +1,39 @@
 // Place all the styles related to the boardgames controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// global vars
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$accent-color: rgb(27, 93, 236);
+
+// elements
+h1 {
+    font: 100% $font-stack;
+    color: $accent-color; 
+}
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto !important;
+    min-width: 0;
+}
+
+// classes
+.centered {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.right-align {
+    float: right;
+}
+
+.left-align {
+    float: left;
+}

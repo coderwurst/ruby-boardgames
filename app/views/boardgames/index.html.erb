@@ -2,10 +2,10 @@
 
 <h1>Boardgames</h1>
 
-<table>
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
   <thead>
     <tr>
-      <th>Name</th>
+      <th class="mdl-data-table__cell--non-numeric">Name</th>
       <th>Rating</th>
       <th>Minplayer</th>
       <th>Maxplayer</th>
@@ -18,7 +18,7 @@
   <tbody>
     <% @boardgames.each do |boardgame| %>
       <tr>
-        <td><%= boardgame.name %></td>
+        <td class="mdl-data-table__cell--non-numeric"><%= boardgame.name %></td>
         <td><%= boardgame.rating %></td>
         <td><%= boardgame.minplayer %></td>
         <td><%= boardgame.maxplayer %></td>
