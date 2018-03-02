@@ -10,28 +10,26 @@ $accent-color: rgb(27, 93, 236);
 // elements
 h1 {
     font: 100% $font-stack;
-    color: $accent-color; 
+    color: $accent-color;
+    font-weight: bold !important;
 }
 
 body {
     font: 100% $font-stack;
     color: $primary-color;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: auto !important;
-    min-width: 0;
+    padding: 24px;
 }
 
-.game-card-wide.mdl-card {
+.card-wide.mdl-card {
     width: 512px;
-}
+    margin-top: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 
-.game-card-wide > .mdl-card__title {
-color: #0000;
-height: 176px;
-width: auto;
+.card-wide > .mdl-card__title {
+    color: $accent-color;
+    padding: 16px;
 }
 
 .mdl-card__title-text {
@@ -39,24 +37,6 @@ width: auto;
     font-weight: bold !important;
 }
 
-.game-card-wide > .mdl-card__menu {
-color: #fff;
-}
-
 .game-card-wide > .mdl-card__actions, .mdl-card--border {
     text-align: center;
-}
-
-// classes
-.centered {
-    margin-left: 50%;
-    margin-right: 50%;
-}
-
-.right-align {
-    float: right;
-}
-
-.left-align {
-    float: left;
 }

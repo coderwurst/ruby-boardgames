@@ -1,37 +1,18 @@
 <p id="notice"><%= notice %></p>
-<div class="game-card-wide mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title-text">
-    <%= @boardgame.name %>
-  </div>
+<div class="card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text"><%= @boardgame.name %></h2>
+    </div>
   <div class="mdl-card__supporting-text">
-    <p>
-      <strong>Rating:</strong>
-      <%= @boardgame.rating %>
-    </p>
-
-    <p>
-      <strong>Minplayer:</strong>
-      <%= @boardgame.minplayer %>
-    </p>
-
-    <p>
-      <strong>Maxplayer:</strong>
-      <%= @boardgame.maxplayer %>
-    </p>
-
-    <p>
-      <strong>Duration:</strong>
-      <%= @boardgame.duration %>
-    </p>
-
-    <p>
-      <strong>Owner:</strong>
-      <%= @boardgame.owner %>
-    </p>
+    <p><strong>rating:</strong><%= @boardgame.rating %></p>
+    <p><strong>minplayer:</strong><%= @boardgame.minplayer %></p>
+    <p><strong>maxplayer:</strong><%= @boardgame.maxplayer %></p>
+    <p><strong>duration:</strong><%= @boardgame.duration %></p>
+    <p><strong>owner:</strong><%= @boardgame.owner %></p>
   </div>
   <div class="mdl-card__actions mdl-card--border">
-    <%= link_to 'Edit', edit_boardgame_path(@boardgame) %> |
-    <%= link_to 'Back', boardgames_path %>
+    <%= link_to 'Edit', edit_boardgame_path(@boardgame), class: 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' %>
+    <%= link_to 'Back', boardgames_path, class: 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' %>
   </div>
 </div>
 

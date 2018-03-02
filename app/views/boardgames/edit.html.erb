@@ -1,6 +1,6 @@
-<h1>Editing Boardgame</h1>
+<h1>Edit Boardgame</h1>
 
 <%= render 'form', boardgame: @boardgame %>
 
-<%= link_to 'Show', @boardgame %> |
-<%= link_to 'Back', boardgames_path %>
+<%= link_to 'Show', @boardgame, class: 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' %>
+<%= link_to 'Back', boardgames_path, class: 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' %>

@@ -2,36 +2,30 @@
 
 <h1>Boardgames</h1>
 
-<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-  <thead>
-    <tr>
-      <th class="mdl-data-table__cell--non-numeric">Name</th>
-      <th>Rating</th>
-      <th>Minplayer</th>
-      <th>Maxplayer</th>
-      <th>Duration</th>
-      <th>Owner</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @boardgames.each do |boardgame| %>
-      <tr>
-        <td class="mdl-data-table__cell--non-numeric"><%= boardgame.name %></td>
-        <td><%= boardgame.rating %></td>
-        <td><%= boardgame.minplayer %></td>
-        <td><%= boardgame.maxplayer %></td>
-        <td><%= boardgame.duration %></td>
-        <td><%= boardgame.owner %></td>
-        <td><%= link_to 'Show', boardgame %></td>
-        <td><%= link_to 'Edit', edit_boardgame_path(boardgame) %></td>
-        <td><%= link_to 'Destroy', boardgame, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
+<div class="mdl-grid">
+  <% @boardgames.each do |boardgame| %>
+    <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
+      <div class="card-wide mdl-card mdl-shadow--2dp item">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text"><%= boardgame.name %></h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <p><strong>rating: </strong><%= boardgame.rating %></p>
+          <p><strong>minPlayers: </strong><%= boardgame.minplayer %></p>
+          <p><strong>maxPlayers: </strong><%= boardgame.maxplayer %></p>
+          <p><strong>duration: </strong><%= boardgame.duration %></p>
+          <p><strong>owner: </strong><%= boardgame.owner %></p>
+          </ul>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+            <%= link_to 'Show', boardgame, class: 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' %>
+            <%= link_to 'Edit', edit_boardgame_path(boardgame), class: 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' %>
+            <%= link_to 'Destroy', boardgame, method: :delete, data: { confirm: 'Are you sure?' }, class: 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
 <br>
 
-<%= link_to 'New Boardgame', new_boardgame_path %>
+<%= link_to 'New Boardgame', new_boardgame_path,  class: 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' %>
