@@ -5,6 +5,9 @@ class BoardgamesController < ApplicationController
   # GET /boardgames.json
   def index
     @boardgames = Boardgame.all
+    # DEBUG-LOG request-response to console
+    # @log = Boardgame.all.to_a
+    # puts "LOG: #{@log}"
   end
 
   # GET /boardgames/1
