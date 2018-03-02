@@ -1,0 +1,322 @@
+[
+  {
+    "name": "7 Wonders (2010)",
+    "rating": 7.736,
+    "minplayer": 2,
+    "maxplayer": 7,
+    "duration": 30,
+    "owner": "AB"
+  },
+  {
+    "name": "Alhambra (2003)",
+    "rating": 6.946,
+    "minplayer": 2,
+    "maxplayer": 6,
+    "duration": "45-60",
+    "owner": "AB"
+  },
+  {
+    "name": "Carcassonne Big Box 4 (2012)",
+    "rating": 6.531,
+    "minplayer": 3,
+    "maxplayer": 6,
+    "duration": "40-100",
+    "owner": "AB"
+  },
+  {
+    "name": "Cards Against Humanity",
+    "rating": 6.00212,
+    "minplayer": 4,
+    "maxplayer": 30,
+    "duration": 30,
+    "owner": "AM"
+  },
+  {
+    "name": "Catan (1995)",
+    "rating": 7.106,
+    "minplayer": 3,
+    "maxplayer": 6,
+    "duration": "60-120",
+    "owner": "AB"
+  },
+  {
+    "name": "Catan: Cities & Knights (1998)",
+    "rating": 7.25,
+    "minplayer": 3,
+    "maxplayer": 6,
+    "duration": 90,
+    "owner": "AB"
+  },
+  {
+    "name": "Das verrückte Labyrinth",
+    "rating": 6.4,
+    "minplayer": 2,
+    "maxplayer": 4,
+    "duration": 20,
+    "owner": "KW"
+  },
+  {
+    "name": "Die Legenden von Andor",
+    "rating": 7.08417,
+    "minplayer": 2,
+    "maxplayer": 4,
+    "duration": 90,
+    "owner": "AM"
+  },
+  {
+    "name": "Die Zwerge",
+    "rating": 6.87,
+    "minplayer": 2,
+    "maxplayer": 5,
+    "duration": 90,
+    "owner": "AM"
+  },
+  {
+    "name": "Dominion (2008)",
+    "rating": 7.593,
+    "minplayer": 2,
+    "maxplayer": 4,
+    "duration": 30,
+    "owner": "AB"
+  },
+  {
+    "name": "Eldrich Horror",
+    "rating": 7.9,
+    "minplayer": 1,
+    "maxplayer": 8,
+    "duration": 240,
+    "owner": "MB"
+  },
+  {
+    "name": "Exploding Kittens",
+    "rating": 5.69295,
+    "minplayer": 2,
+    "maxplayer": 5,
+    "duration": 15,
+    "owner": "AM"
+  },
+  {
+    "name": "Flash Point",
+    "rating": 6.9,
+    "minplayer": 1,
+    "maxplayer": 6,
+    "duration": 30,
+    "owner": "AM"
+  },
+  {
+    "name": "Game of thrones: the card game",
+    "rating": 6.09,
+    "minplayer": 2,
+    "maxplayer": 2,
+    "duration": "",
+    "owner": "AM"
+  },
+  {
+    "name": "Imploding Kittens",
+    "rating": 5.98068,
+    "minplayer": 2,
+    "maxplayer": 6,
+    "duration": 15,
+    "owner": "AM"
+  },
+  {
+    "name": "Isle of Skye",
+    "rating": 7.5,
+    "minplayer": 2,
+    "maxplayer": 5,
+    "duration": "30-50",
+    "owner": "AM"
+  },
+  {
+    "name": "Istanbul",
+    "rating": 7.46807,
+    "minplayer": 2,
+    "maxplayer": 5,
+    "duration": 60,
+    "owner": "AM"
+  },
+  {
+    "name": "Kingdom Builder (2011)",
+    "rating": 6.898,
+    "minplayer": 2,
+    "maxplayer": 4,
+    "duration": 45,
+    "owner": "AB"
+  },
+  {
+    "name": "Kingdom Builder: Crossroads (2013)",
+    "rating": 6.487,
+    "minplayer": 2,
+    "maxplayer": 5,
+    "duration": 45,
+    "owner": "AB"
+  },
+  {
+    "name": "Kingdom Builder: Nomads (2012)",
+    "rating": 6.683,
+    "minplayer": 2,
+    "maxplayer": 5,
+    "duration": 45,
+    "owner": "AB"
+  },
+  {
+    "name": "Legends of Andor (2012)",
+    "rating": 7.084,
+    "minplayer": 2,
+    "maxplayer": 4,
+    "duration": "60-90",
+    "owner": "AB"
+  },
+  {
+    "name": "Mission to Mars 2049",
+    "rating": 6,
+    "minplayer": 2,
+    "maxplayer": 4,
+    "duration": 120,
+    "owner": "AM"
+  },
+  {
+    "name": "Munchkin (2001)",
+    "rating": 5.785,
+    "minplayer": 2,
+    "maxplayer": 8,
+    "duration": "60-120",
+    "owner": "AB"
+  },
+  {
+    "name": "Mysterium",
+    "rating": 7.32766,
+    "minplayer": 2,
+    "maxplayer": 7,
+    "duration": 42,
+    "owner": "AM"
+  },
+  {
+    "name": "Pandemic",
+    "rating": 7.57702,
+    "minplayer": 2,
+    "maxplayer": 4,
+    "duration": 45,
+    "owner": "AM"
+  },
+  {
+    "name": "Pandemic: auf Messers Schneide",
+    "rating": 8.1,
+    "minplayer": 2,
+    "maxplayer": 5,
+    "duration": 45,
+    "owner": "AM"
+  },
+  {
+    "name": "RoboRally (1994)",
+    "rating": 7.025,
+    "minplayer": 2,
+    "maxplayer": 8,
+    "duration": "45-120",
+    "owner": "AB"
+  },
+  {
+    "name": "Salem",
+    "rating": 6.72,
+    "minplayer": 3,
+    "maxplayer": 7,
+    "duration": 180,
+    "owner": "AM"
+  },
+  {
+    "name": "Scythe",
+    "rating": 8.08856,
+    "minplayer": 1,
+    "maxplayer": 5,
+    "duration": 115,
+    "owner": "AM"
+  },
+  {
+    "name": "Sid Meier's Civilization: The Board Game (2010)",
+    "rating": 7.295,
+    "minplayer": 2,
+    "maxplayer": 4,
+    "duration": "120-240",
+    "owner": "AB"
+  },
+  {
+    "name": "Star Wars: Imperial Assault (2014)",
+    "rating": 7.87,
+    "minplayer": 2,
+    "maxplayer": 5,
+    "duration": "60-120",
+    "owner": "AB"
+  },
+  {
+    "name": "Star Wars: X-Wing Miniatures Game (2012)",
+    "rating": 7.647,
+    "minplayer": 2,
+    "maxplayer": 12,
+    "duration": "30-45",
+    "owner": "AB"
+  },
+  {
+    "name": "Terra Mystica",
+    "rating": 8.32,
+    "minplayer": 2,
+    "maxplayer": 5,
+    "duration": "30min/player",
+    "owner": "AM"
+  },
+  {
+    "name": "Ticket to Ride: Europe",
+    "rating": 7.47703,
+    "minplayer": 2,
+    "maxplayer": 5,
+    "duration": 60,
+    "owner": "AM"
+  },
+  {
+    "name": "Tobago",
+    "rating": 7.1,
+    "minplayer": 2,
+    "maxplayer": 4,
+    "duration": 60,
+    "owner": "AM"
+  },
+  {
+    "name": "Tortuga 1667",
+    "rating": 7.33,
+    "minplayer": 2,
+    "maxplayer": 9,
+    "duration": 40,
+    "owner": "AM"
+  },
+  {
+    "name": "Twilight Imperium (Third Edition) (2005)",
+    "rating": 7.702,
+    "minplayer": 2,
+    "maxplayer": 6,
+    "duration": "180-240",
+    "owner": "AB"
+  },
+  {
+    "name": "Twilight Imperium (Third Edition): Shards of the Throne (2011)",
+    "rating": 7.617,
+    "minplayer": 2,
+    "maxplayer": 8,
+    "duration": 240,
+    "owner": "AB"
+  },
+  {
+    "name": "Twilight Imperium (Third Edition): Shattered Empire (2006)",
+    "rating": 7.989,
+    "minplayer": 2,
+    "maxplayer": 8,
+    "duration": 240,
+    "owner": "AB"
+  },
+  {
+    "name": "Warhammer 40,000 (Eighth Edition) (2017)",
+    "rating": 5.627,
+    "minplayer": 2,
+    "maxplayer": 12,
+    "duration": "120-180",
+    "owner": "AB"
+  }
+]
