@@ -4,7 +4,7 @@ class BoardgamesController < ApplicationController
   # GET /boardgames
   # GET /boardgames.json
   def index
-    @boardgames = Boardgame.all
+    @boardgames = Boardgame.all.order_by(:name => 'asc')
     # DEBUG-LOG request-response to console
     # @log = Boardgame.all.to_a
     # puts "LOG: #{@log}"
