@@ -10,12 +10,26 @@
           <h2 class="mdl-card__title-text"><%= boardgame.name %></h2>
         </div>
         <div class="mdl-card__supporting-text">
-          <p><strong>rating: </strong><%= boardgame.rating %></p>
-          <p><strong>minPlayers: </strong><%= boardgame.minplayer %></p>
-          <p><strong>maxPlayers: </strong><%= boardgame.maxplayer %></p>
-          <p><strong>duration: </strong><%= boardgame.duration %></p>
-          <p><strong>owner: </strong><%= boardgame.owner %></p>
-          </ul>
+        <table class="mdl-data-table mdl-js-data-table">
+          <thead>
+            <tr>
+              <th class="mdl-data-table__cell--non-numeric">rating</th>
+              <th>minPlayers</th>
+              <th>maxPlayers</th>
+              <th>duration</th>
+              <th>owner</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="mdl-data-table__cell--non-numeric"><%= boardgame.rating %></td>
+              <td class="mdl-data-table__cell--non-numeric"><%= boardgame.minplayer %></td>
+              <td class="mdl-data-table__cell--non-numeric"><%= boardgame.maxplayer %></td>
+              <td class="mdl-data-table__cell--non-numeric"><%= boardgame.duration %></td>
+              <td class="mdl-data-table__cell--non-numeric"><%= boardgame.owner %></td>
+            </tr>
+          </tbody>
+        </table>
         </div>
         <div class="mdl-card__actions mdl-card--border">
             <%= link_to 'Show', boardgame, class: 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' %>
