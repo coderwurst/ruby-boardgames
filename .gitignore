@@ -51,5 +51,4 @@ build-iPhoneSimulator/
 .rvmrc
 
 # database config secrets!
-mongoid.yml
 /config/secrets.yml
