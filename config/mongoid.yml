@@ -6,7 +6,7 @@ development:
       # A uri may be defined for a client:
       # uri: 'mongodb://user:password@myhost1.mydomain.com:27017/my_db'
       #
-      uri: <%= "#{ENV['MONGODB_URI']}" %>
+      uri: <%= ENV["MONGODB_URI"] %>
 
       # Defines the name of the default database that Mongoid can connect to.
       # (required).
