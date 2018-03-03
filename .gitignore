@@ -52,3 +52,4 @@ build-iPhoneSimulator/
 
 # database config secrets!
 mongoid.yml
+/config/secrets.yml
