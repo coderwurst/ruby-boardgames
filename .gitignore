@@ -49,6 +49,3 @@ build-iPhoneSimulator/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
-
-# database config secrets!
-/config/secrets.yml
