@@ -158,3 +158,13 @@ test:
         read:
           mode: :primary
         max_pool_size: 1
+
+production:
+  # Configure available database clients. (required)
+  clients:
+    # Defines the default client. (required)
+    default:
+      # A uri may be defined for a client:
+      # uri: 'mongodb://user:password@myhost1.mydomain.com:27017/my_db'
+      #
+      uri: <%= ENV["MONGODB_URI"] %>
